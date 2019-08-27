@@ -65,6 +65,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.matriz1.SuspendLayout();
             this.resultadomatriz.SuspendLayout();
             this.matriz2.SuspendLayout();
@@ -247,6 +248,7 @@
             this.G1.Name = "G1";
             this.G1.Size = new System.Drawing.Size(57, 20);
             this.G1.TabIndex = 3;
+            this.G1.TextChanged += new System.EventHandler(this.G1_TextChanged);
             // 
             // matriz2
             // 
@@ -333,7 +335,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(431, 97);
+            this.button1.Location = new System.Drawing.Point(384, 93);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -345,7 +347,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(431, 147);
+            this.button2.Location = new System.Drawing.Point(481, 92);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 12;
@@ -357,7 +359,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Cornsilk;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(431, 197);
+            this.button3.Location = new System.Drawing.Point(431, 150);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 13;
@@ -400,12 +402,25 @@
             this.label4.Text = "RESULT";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label5.Location = new System.Drawing.Point(721, 454);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(174, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "MIGUEL CARDONA CONTRERAS";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // CUADROPRINCIPAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(960, 476);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -416,6 +431,7 @@
             this.Controls.Add(this.resultadomatriz);
             this.Controls.Add(this.matriz1);
             this.Controls.Add(this.label1);
+            this.MinimizeBox = false;
             this.Name = "CUADROPRINCIPAL";
             this.Text = "MIKE\'S CALCULATOR";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -469,6 +485,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

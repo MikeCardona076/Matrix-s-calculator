@@ -206,5 +206,43 @@ namespace calculatorofMike
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int matriz_1 = int.Parse(A1.Text);
+            int matriz_2 = int.Parse(A2.Text);
+            int matriz_3 = int.Parse(A3.Text);
+
+            int matriz_4 = int.Parse(B1.Text);
+            int matriz_5 = int.Parse(B2.Text);
+            int matriz_6 = int.Parse(B3.Text);
+
+            int matriz_7 = int.Parse(C1.Text);
+            int matriz_8 = int.Parse(C2.Text);
+            int matriz_9 = int.Parse(C3.Text);
+
+
+            G1.Text = Convert.ToString( matriz_1 * 1 / matriz_1 );
+       
+            H1.Text = Convert.ToString( matriz_1 * 1 / matriz_4);
+
+            I1.Text = Convert.ToString( matriz_1 * 1 / matriz_7);
+
+        }
+
+        private void G1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

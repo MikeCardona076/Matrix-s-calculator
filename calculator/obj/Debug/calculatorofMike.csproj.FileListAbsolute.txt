@@ -18,3 +18,12 @@ C:\Users\PC\Documents\C#\calculator\calculatorofMike\obj\Debug\calculatorofMike.
 C:\Users\PC\Documents\C#\calculator\calculatorofMike\obj\Debug\calculatorofMike.csproj.CoreCompileInputs.cache
 C:\Users\PC\Documents\C#\calculator\calculatorofMike\obj\Debug\calculatorofMike.exe
 C:\Users\PC\Documents\C#\calculator\calculatorofMike\obj\Debug\calculatorofMike.pdb
+C:\Users\PC\Documents\C#\calculator\calculator\bin\Debug\calculatorofMike.exe.config
+C:\Users\PC\Documents\C#\calculator\calculator\bin\Debug\calculatorofMike.exe
+C:\Users\PC\Documents\C#\calculator\calculator\bin\Debug\calculatorofMike.pdb
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.CUADROPRINCIPAL.resources
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.Properties.Resources.resources
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.csproj.GenerateResource.cache
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.exe
+C:\Users\PC\Documents\C#\calculator\calculator\obj\Debug\calculatorofMike.pdb
